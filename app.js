@@ -9,7 +9,6 @@ function clearDisplay() {
 function calculate() {
   try {
       const display = document.getElementById('display');
-      // Evaluate the expression while handling the modulus operator
       const expression = display.value.replace(/%/g, ' % ');
       display.value = eval(expression);
   } catch (error) {
