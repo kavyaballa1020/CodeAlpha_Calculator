@@ -73,30 +73,19 @@ body {
   color: #ffffff;
   border: none;
 }
-.btn-warning:hover {
-  background-color: rgb(135, 88, 2);
-  color: #ffffff;
-  border: none;
-}
-
-.btn-info {
-  background-color: #5bc0de;
-  color: #fff;
-  border: none;
-}
-
 .btn:hover {
   
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   color: rgb(255, 255, 255);
 }
 
 .btn-primary:hover {
-  background-color: #222424;
+  background-color: rgb(188, 123, 3);
 }
 
 .btn-success:hover {
-  background-color: #ff4000;
+  background-color: #ffffff;
+  color: black;
 }
 
 .btn-danger:hover {
@@ -107,12 +96,12 @@ body {
 .btn-warning:hover {
   background-color: #ec971f;
 }
-
-.calculator button.btn-danger:focus,
-.calculator button.btn-danger:active {
+.calculator button.btn-primary:focus,
+.calculator button.btn-primary:active {
   outline: none;
+  background-color: orange;
+  border: none;
 }
-
 @media (max-width: 576px) {
   .btn {
       font-size: 1rem; 
