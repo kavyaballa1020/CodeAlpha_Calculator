@@ -87,7 +87,25 @@ body {
   .calculator button.btn-danger:active {
     outline: none;
   }
-  
+  .btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+.btn-info {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+}
+
   
   @media (max-width: 576px) {
     .btn {
