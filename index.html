@@ -20,75 +20,79 @@
       <div class="calculator">
         <input type="text" id="display" class="form-control mb-2" disabled />
         <div class="row">
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('7')">7</button>
+          <div class="col-3">
+            <button class="btn btn-danger btn-clear btn-block mb-2" onclick="clearDisplay()">AC</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('8')">8</button>
+          <div class="col-3">
+            <button class="btn btn-success btn-block mb-2" onclick="calculate()">=</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('9')">9</button>
+          
+          <div class="col-3">
+            <button class="btn btn-success btn-block mb-2" onclick="backspace()">⌫</button>
           </div>
-          <div class="col">
+          <div class="col-3">
             <button class="btn btn-primary btn-block mb-2" onclick="appendToDisplay('/')">÷</button>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('4')">4</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('7')">7</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('5')">5</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('8')">8</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('6')">6</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('9')">9</button>
           </div>
-          <div class="col">
+          <div class="col-3">
             <button class="btn btn-primary btn-block mb-2" onclick="appendToDisplay('*')">×</button>
           </div>
+         
         </div>
         <div class="row">
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('1')">1</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('4')">4</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('2')">2</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('5')">5</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('3')">3</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('6')">6</button>
           </div>
-          <div class="col">
+          <div class="col-3">
             <button class="btn btn-primary btn-block mb-2" onclick="appendToDisplay('-')">−</button>
           </div>
+         
         </div>
         <div class="row">
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('0')">0</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('1')">1</button>
           </div>
-          <div class="col">
-            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('.')">.</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('2')">2</button>
           </div>
-          <div class="col">
-            <button class="btn btn-success btn-block mb-2" onclick="calculate()">=</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('3')">3</button>
           </div>
-          <div class="col">
+          <div class="col-3">
             <button class="btn btn-primary btn-block mb-2" onclick="appendToDisplay('+')">+</button>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            <button class="btn btn-danger btn-clear btn-block mb-2" onclick="clearDisplay()">C</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('0')">0</button>
           </div>
-          <div class="col">
-            <button class="btn btn-warning btn-block mb-2" onclick="backspace()">⌫</button>
-          </div>
-          <div class="col">
+          <div class="col-3">
             <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('00')">00</button>
           </div>
-          <div class="col">
-            <button class="btn btn-info btn-block mb-2" onclick="appendToDisplay('%')">%</button>
+          <div class="col-3">
+            <button class="btn btn-secondary btn-block mb-2" onclick="appendToDisplay('.')">.</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block mb-2" onclick="appendToDisplay('%')">%</button>
           </div>
         </div>
+       
       </div>
     </div>
   </body>
