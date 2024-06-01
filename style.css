@@ -1,5 +1,5 @@
 body {
-    background-image: url('C.jpg');
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,14 +45,14 @@ body {
   }
   
   .btn-primary {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: orange;
+    color: #ffffff;
     border: none;
   }
   
   .btn-success {
-    background-color: #d84603;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
   }
   .btn-clear {
